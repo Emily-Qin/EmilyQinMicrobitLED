@@ -25,7 +25,7 @@ function lightUp () {
         xcoList.push(xco)
         ycoList.push(yco)
     }
-    //turs off, pauses, turns on lights
+    //turns off, pauses, turns on lights
     if (xcoList.length == 25) {
         // to show the last led light
         basic.pause(100)
