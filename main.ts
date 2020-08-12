@@ -51,11 +51,11 @@ input.onButtonPressed(Button.AB, function () {
 
 //If Button B pressed
 input.onButtonPressed(Button.B, function () {
-    lightoff()
+    lightOff()
 })
 
 //Turn lights off according to order
-function lightoff () {
+function lightOff () {
     xco = xcoList[0]
     yco = ycoList[0]
     led.unplot(xco, yco)
