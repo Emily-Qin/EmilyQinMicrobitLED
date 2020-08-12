@@ -10,8 +10,8 @@ function lightUp () {
         coExist = 1
         while (coExist == 1) {
             //pick random number
-            xco = randint(0, 4)
-            yco = randint(0, 4)
+            xco = randint(0, 4) //x-coordinate
+            yco = randint(0, 4) //y-coordinate
             //check if coordinates already exists
             coExist = 0
             for (let i = 0; i <= xcoList.length - 1; i++) {
