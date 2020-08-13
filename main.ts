@@ -46,20 +46,6 @@ function lightUp () {
     }
 }
 
-//if Button A and B Pressed
-input.onButtonPressed(Button.AB, function () {
-	 for (let i = 0; i <=  4; i++) {
-        for (let j = 0; j <=  4; j++) {
-            led.unplot(i, j)
-        }
-     }
-    basic.showString("RESET")
-    //resetting list
-    xcoList=[]
-    ycoList=[]
-
-})
-
 //If Button B pressed
 input.onButtonPressed(Button.B, function () {
     lightOff()
@@ -89,3 +75,17 @@ function lightOff () {
         }   
     }
 }
+
+//if Button A and B Pressed
+input.onButtonPressed(Button.AB, function () {
+	 for (let i = 0; i <=  4; i++) {
+        for (let j = 0; j <=  4; j++) {
+            led.unplot(i, j)
+        }
+     }
+    basic.showString("RESET")
+    //resetting list
+    xcoList=[]
+    ycoList=[]
+
+})
