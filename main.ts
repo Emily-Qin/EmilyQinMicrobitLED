@@ -1,3 +1,14 @@
+//variables
+let coExist = 0
+let ycoList: number[] = []
+let xcoList: number[] = []
+let yco = 0
+let xco = 0
+xco = randint(0, 4)
+yco = randint(0, 4)
+xcoList = []
+ycoList = []
+
 //If Button A is pressed
 input.onButtonPressed(Button.A, function () {
     lightUp()
@@ -78,14 +89,3 @@ function lightOff () {
         }   
     }
 }
-
-//variables
-let coExist = 0
-let ycoList: number[] = []
-let xcoList: number[] = []
-let yco = 0
-let xco = 0
-xco = randint(0, 4)
-yco = randint(0, 4)
-xcoList = []
-ycoList = []
